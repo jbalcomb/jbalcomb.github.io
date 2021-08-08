@@ -1,67 +1,107 @@
 {
   "nodes": [
     {
-      "id": "Lannister"
+      "id": "IBM"
     },
     {
-      "id": "Tully"
+      "id": "1981"
     },
     {
-      "id": "Baratheon"
+      "id": "1982"
     },
     {
-      "id": "Stark"
+      "id": "1987"
     },
     {
-      "id": "Darry"
+      "id": "1987-10"
     },
     {
-      "id": "Greyjoy"
+      "id": "IBM PC"
     },
     {
-      "id": "Bolton"
+      "id": "VGA"
     },
     {
-      "id": "Brotherhood without Banners"
+      "id": "MS-DOS"
     },
     {
-      "id": "Brave Companions"
+      "id": "PC-DOS"
     },
     {
-      "id": "Frey"
+      "id": "PC-DOS 3.3"
     },
     {
-      "id": "Mallister"
+      "id": "VGA Mode Hex 13"
     },
     {
-      "id": "Free folk"
+      "id": "Microsoft"
     },
     {
-      "id": "Night's Watch"
+      "id": "80286"
     },
     {
-      "id": "Tyrell"
+      "id": "80386"
     },
     {
-      "id": "Bracken"
+      "id": "IBM PS/2"
     },
     {
-      "id": "Blackwood"
+      "id": "16-bit"
+    },
+    {
+      "id": "32-bit"
+    },
+    {
+      "id": "LIM EMS"
+    },
+    {
+      "id": "LIM EMS 4.0"
+    },
+    {
+      "id": "ZM EXE"
+    },
+    {
+      "id": "MZ EXE"
+    }
+    ,
+    {
+      "id": "LE EXE"
+    },
+    {
+      "id": "NE EXE"
+    },
+    {
+      "id": "PE EXE"
+    },
+    {
+      "id": "PE64 EXE"
+    },
+    {
+      "id": "cp437"
+    },
+    {
+      "id": "PC-DOS 1.00"
+    },
+    {
+      "id": "PC BIOS ROM"
+    },
+    {
+      "id": ""
     }
   ],
   "edges": [
-    { "from": "Lannister", "to": "Tully" },
-    { "from": "Lannister", "to": "Baratheon" },
-    { "from": "Stark", "to": "Lannister" },
-    { "from": "Lannister", "to": "Darry" },
-    { "from": "Greyjoy", "to": "Stark" },
-    { "from": "Stark", "to": "Greyjoy" },
-    { "from": "Bolton", "to": "Stark" },
-    { "from": "Baratheon", "to": "Lannister" },
-    { "from": "Darry", "to": "Lannister" },
-    { "from": "Brotherhood without Banners", "to": "Brave Companions" },
-    { "from": "Lannister", "to": "Stark" },
-    { "from": "Lannister", "to": "Brave Companions" },
+    { "from": "1987", "to": "PC-DOS 3.3" },
+    { "from": "1981", "to": "cp437" },
+    { "from": "1981", "to": "IBM PC" },
+    { "from": "IBM PC", "to": "Model 5150" },
+    { "from": "Model 5150", "to": "8088" },
+    { "from": "8088", "to": "8-bit Bus" },
+    { "from": "Model 5150", "to": "cp437" },
+    { "from": "Model 5150", "to": "PC-DOS 1.00" },
+    { "from": "1982", "to": "PC-DOS 1.10" },
+    { "from": "1981", "to": "PC-DOS 1.00" },
+    { "from": "LIM EMS 4.0", "to": "1987" },
+    { "from": "LIM EMS 4.0", "to": "1987-10" },
     { "from": "Frey", "to": "Stark" },
     { "from": "Frey", "to": "Mallister" },
     { "from": "Free folk", "to": "Night's Watch" },
